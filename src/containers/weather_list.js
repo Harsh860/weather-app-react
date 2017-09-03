@@ -21,8 +21,8 @@ renderWeather(cityData){
          <td>{name}</td>
          
          <td><Chart key={uuid()} data={temps} height={120} width={180} color="orange" /></td>
-         <td><Chart key={uuid()} data={pressures} height={120} width={180}  color="orange" /></td>
-         <td><Chart key={uuid()}  data={humidity} height={120} width={180}  color="orange" /></td>
+         <td><Chart key={uuid()} data={pressures} height={120} width={180}  color="red" /></td>
+         <td><Chart key={uuid()}  data={humidity} height={120} width={180}  color="green" /></td>
            
             
          </tr>
